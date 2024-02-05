@@ -6,7 +6,10 @@ This project utilizes the latent tensor reconstruction ([`LTR`](https://arxiv.or
 The code is developed using python>=3.8.
 The main algorithm ./scripts/go_ltr_main.py is based on [`LTR`](https://arxiv.org/abs/2005.01538) [`software`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main) which is available at 
 [`GO-LTR`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main). 
-The following packages are required to run the file: numpy, scipy and itertools, which can be downloaded free of charge on pypi.
+The following packages which can be downloaded free of charge on pypi, are required to run the file: 
+* numpy
+* scipy
+* itertools
 
 ## Dataset
 The uniprot IDs of the protein sequences used for the study are in ./dataset directory.
