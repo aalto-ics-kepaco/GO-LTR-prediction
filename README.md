@@ -1,9 +1,9 @@
 # Protein Function Prediction through Latent Tensor Reconstruction
 
-This project utilizes the latent tensor reconstruction approach to model the joint interactions between different protein features to predict protein functional terms (i.e: Gene ontology terms).
+This project utilizes the latent tensor reconstruction (LTR) approach to model the joint interactions between different protein features to predict protein functional terms (i.e: Gene ontology terms).
 
 ## Software
-The code is developed using python>=3.8 
+The code is developed using python>=3.8.
 The main algorithm ./scripts/go_ltr_main.py is based on LTR software wchich is available at [`GO-LTR`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main). 
 The following packages are required to run the file: numpy, scipy and itertools, which can be downloaded free of charge on pypi.
 
@@ -13,8 +13,6 @@ Using the IDs one can find the full specification of each protein in the UniProt
 The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as AlphaFoldDB, Rhea-DB, etc for specific protein feature information.
 
 Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
-
-## Script
 
 ## Feature representation and parameter tensor factorization
 
