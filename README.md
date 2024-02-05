@@ -38,6 +38,7 @@ We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/
 
 
 ## Citation
+```bibtex
 * @article{szedmak2020solution,
   title={A solution for large scale nonlinear regression with high rank and degree at constant memory complexity via latent tensor reconstruction},
   author={Szedmak, Sandor and Cichonska, Anna and Julkunen, Heli and Pahikkala, Tapio and Rousu, Juho},
@@ -55,3 +56,4 @@ We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/
   year={2021},
   publisher={Oxford University Press}
 }
+```
