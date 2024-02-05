@@ -15,6 +15,9 @@ The ascession numbers obtained from the UniprotKB search can then be used to que
 
 Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
 
+## Scripts
+* ./scripts/go_ltr_main.py - main file for running GO-LTR and generating predictions
+
 ## Feature representation and parameter tensor factorization
 
 ![Image Alt text](./images/Feature_representation_tensor_factorization.png "Feature representation and Tensor factorization employed in GO-LTR")
@@ -32,14 +35,14 @@ We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/
 
 
 ## Citation
-@article{szedmak2020solution,
+* @article{szedmak2020solution,
   title={A solution for large scale nonlinear regression with high rank and degree at constant memory complexity via latent tensor reconstruction},
   author={Szedmak, Sandor and Cichonska, Anna and Julkunen, Heli and Pahikkala, Tapio and Rousu, Juho},
   journal={arXiv preprint arXiv:2005.01538},
   year={2020}
 }
 
-@article{wang2021modeling,
+* @article{wang2021modeling,
   title={Modeling drug combination effects via latent tensor reconstruction},
   author={Wang, Tianduanyi and Szedmak, Sandor and Wang, Haishan and Aittokallio, Tero and Pahikkala, Tapio and Cichonska, Anna and Rousu, Juho},
   journal={Bioinformatics},
