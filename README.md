@@ -45,7 +45,9 @@ We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/
   journal={arXiv preprint arXiv:2005.01538},
   year={2020}
 }
+```
 
+```bibtex
 * @article{wang2021modeling,
   title={Modeling drug combination effects via latent tensor reconstruction},
   author={Wang, Tianduanyi and Szedmak, Sandor and Wang, Haishan and Aittokallio, Tero and Pahikkala, Tapio and Cichonska, Anna and Rousu, Juho},
