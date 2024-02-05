@@ -15,12 +15,12 @@ The ascession numbers obtained from the UniprotKB search can then be used to que
 
 ## Feature representation and parameter tensor factorization
 
-![Image Alt text](./images/Feature_representation_tensor_factorization.png "Feature representation and Tensor factorization employed in GO-LTR"))
+![Image Alt text](./Feature_representation_tensor_factorization.png "Feature representation and Tensor factorization employed in GO-LTR"))
 
 We leveraged 3 different protein features: Sequence embeddings generated from ProtT% Protein language model, InterPro fingerprints and Protein-protein interaction (PPI) data from StringDB.
 
 ## GO-LTR multiview framework
-![Image Alt text](./images/GO_LTR_multiview_workflow.png "Illustration of the GO-LTR multiview workflow")
+![Image Alt text](./GO_LTR_multiview_workflow.png "Illustration of the GO-LTR multiview workflow")
 As shown above, the functions associated with a particular protein forms a consistent graph in the Gene Ontology (GO) graph. The functional terms also follow the true-path annotation rule -- where a protein annotated to a deep level term in the ontology is automatically annotated to all the parents of the child term. 
 
 
