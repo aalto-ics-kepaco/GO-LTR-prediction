@@ -15,7 +15,7 @@ The ascession numbers obtained from the UniprotKB search can then be used to que
 
 ## Feature representation and parameter tensor factorization
 
-![Image Alt text](./Feature_representation_tensor_factorization.png "Feature representation and Tensor factorization employed in GO-LTR"))
+![Image Alt text](./Feature_representation_tensor_factorization.png "Feature representation and Tensor factorization employed in GO-LTR")
 
 We leveraged 3 different protein features: Sequence embeddings generated from ProtT% Protein language model, InterPro fingerprints and Protein-protein interaction (PPI) data from StringDB.
 
