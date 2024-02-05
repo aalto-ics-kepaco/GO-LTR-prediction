@@ -5,11 +5,6 @@ import time
 import numpy as np
 ## ###################################################
 ## for demonstration
-import matplotlib
-import matplotlib.pyplot as plt
-import matplotlib.cm as cmplot
-import sklearn.model_selection 
-from sklearn.metrics import mean_squared_error
 from scipy.special import expit
 from itertools import chain, combinations
 ## ###################################################
