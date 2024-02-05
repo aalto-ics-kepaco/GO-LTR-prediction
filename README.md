@@ -1,17 +1,17 @@
 # Protein Function Prediction through Latent Tensor Reconstruction
 
-This project utilizes the latent tensor reconstruction (LTR) approach to model the joint interactions between different protein features to predict protein functional terms (i.e: Gene ontology terms).
+This project utilizes the latent tensor reconstruction ([`LTR`](https://arxiv.org/abs/2005.01538)) approach to model the joint interactions between different protein features to predict protein functional terms (i.e: Gene ontology terms).
 
 ## Software
 The code is developed using python>=3.8.
-The main algorithm ./scripts/go_ltr_main.py is based on LTR software which is available at 
+The main algorithm ./scripts/go_ltr_main.py is based on [`LTR`](https://arxiv.org/abs/2005.01538) [`software`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main) which is available at 
 [`GO-LTR`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main). 
 The following packages are required to run the file: numpy, scipy and itertools, which can be downloaded free of charge on pypi.
 
 ## Dataset
 The uniprot IDs of the protein sequences used for the study are in ./dataset directory.
 Using the IDs one can find the full specification of each protein in the UniProtKB database.
-The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as AlphaFoldDB, Rhea-DB, etc for specific protein feature information.
+The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as [`AlphaFoldDB`](https://alphafold.ebi.ac.uk/), [`Rhea-DB`](https://www.rhea-db.org/), etc for specific protein feature information.
 
 Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
 
@@ -19,7 +19,7 @@ Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/
 
 ![Image Alt text](./images/Feature_representation_tensor_factorization.png "Feature representation and Tensor factorization employed in GO-LTR")
 
-We leveraged 3 different protein features: Sequence embeddings generated from ProtT% Protein language model, InterPro fingerprints and Protein-protein interaction (PPI) data from StringDB.
+We leveraged 3 different protein features: Sequence embeddings generated from [`ProtT5`](https://github.com/agemagician/ProtTrans) Protein language model, [`InterPro fingerprints`](https://www.ebi.ac.uk/interpro/) and Protein-protein interaction (PPI) data from [`StringDB`](https://string-db.org/).
 
 ## GO-LTR multiview framework
 ![Image Alt text](./images/GO_LTR_multiview_workflow.png "Illustration of the GO-LTR multiview workflow")
