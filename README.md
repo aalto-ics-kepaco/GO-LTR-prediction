@@ -28,7 +28,7 @@ As shown above, the functions associated with a particular protein forms a consi
 
 
 ## Evaluation. 
-We used the CAFA-evaluator [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/tree/kaggle) script for performance evaluation of the models considered under the study.
+We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/tree/kaggle) script for performance evaluation of the models considered under the study.
 
 
 ## Citation
