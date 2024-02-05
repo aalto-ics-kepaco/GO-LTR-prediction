@@ -433,8 +433,6 @@ def main(iworkmode=None):
 	ppi_modes = ["transductive"]#, "inductive"]
 	feature_names = ["interpro", "ppi", "uniprot"]
 
-	iter_count = 0
-
 	fold_i = sys.argv[1]
 
 	for sdir in ont_dirs:
@@ -462,7 +460,7 @@ def main(iworkmode=None):
 			lx_cent_train = [centr_kern(Ktrain=lx_train[i], Ktest=None, train=True) for i in range(nxfile)]
 			lx_cent_test = [centr_kern(Ktrain=lx_train[i], Ktest=lx_test[i],train=False) for i in range(nxfile)]
 
-			loss_types = ['huber_power']
+			loss_types = 'huber_power'
 
 			iter_count += 1
 			print("Training with: ", loss_type, " loss function!")
@@ -478,12 +476,14 @@ def main(iworkmode=None):
 			llinks = llinks_train = [[i] for i in range(len(train_feat_views))]
 
 			cmodel.fit(lxtrain, y_train, llinks = llinks, xindex = None, nepoch=10)
-			
+
+			#Training
 			print("Train results")
 			Ypred = cmodel.predict(lxtrain, Ytrain = y_train, llinks = llinks, xindex = None)
 			acc_eval(y_train[:,:], Ypred[:,:])
 			print("*"*65)
-
+			
+			#Inference
 			#Generating predictions based on raw scores only without selecting from the closest vector
 			Ypred_ = cmodel.predict(lxtest, Ytrain = None, llinks = llinks, xindex = None)
 			Ypred = expit(Ypred_)
