@@ -4,7 +4,8 @@ This project utilizes the latent tensor reconstruction (LTR) approach to model t
 
 ## Software
 The code is developed using python>=3.8.
-The main algorithm ./scripts/go_ltr_main.py is based on LTR software wchich is available at [`GO-LTR`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main). 
+The main algorithm ./scripts/go_ltr_main.py is based on LTR software which is available at 
+[`GO-LTR`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main). 
 The following packages are required to run the file: numpy, scipy and itertools, which can be downloaded free of charge on pypi.
 
 ## Dataset
