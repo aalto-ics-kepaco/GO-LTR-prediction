@@ -1,1 +1,34 @@
-# GO-LTR-prediction
+# Protein Function Prediction through Latent Tensor Reconstruction
+
+This project utilizes the latent tensor reconstruction approach to model the joint interactions between different protein features to predict protein functional terms (i.e: Gene ontology terms).
+
+## Software
+
+## Dependencies
+
+## Dataset
+The uniprot IDs of the protein sequences used for the study are in ./dataset directory.
+Using the IDs one can find the full specification of each protein in the UniProtKB database.
+The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as AlphaFoldDB, Rhea-DB, etc for specific protein feature information.
+
+## Script
+
+## Feature representation and parameter tensor factorization
+
+![Image Alt text](./images/Feature_representation_tensor_factorization.png "Feature representation and Tensor factorization employed in GO-LTR"))
+
+We leveraged 3 different protein features: Sequence embeddings generated from ProtT% Protein language model, InterPro fingerprints and Protein-protein interaction (PPI) data from StringDB.
+
+## GO-LTR multiview framework
+![Image Alt text](./images/GO_LTR_multiview_workflow.png "Illustration of the GO-LTR multiview workflow")
+As shown above, the functions associated with a particular protein forms a consistent graph in the Gene Ontology (GO) graph. The functional terms also follow the true-path annotation rule -- where a protein annotated to a deep level term in the ontology is automatically annotated to all the parents of the child term. 
+
+
+
+## Evaluation. 
+We used the CAFA-evaluator [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/tree/kaggle) script for performance evaluation of the models considered under the study.
+
+
+## Citation
+
+ 
