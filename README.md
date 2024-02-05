@@ -11,7 +11,7 @@ The following packages are required to run the file: numpy, scipy and itertools,
 ## Dataset
 The uniprot IDs of the protein sequences used for the study are in ./dataset directory.
 Using the IDs one can find the full specification of each protein in the UniProtKB database.
-The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as [`AlphaFoldDB`](https://alphafold.ebi.ac.uk/), [`Rhea-DB`](https://www.rhea-db.org/), etc for specific protein feature information.
+The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as [`AlphaFoldDB`](https://alphafold.ebi.ac.uk/), [`Rhea-DB`](https://www.rhea-db.org/), etc, for specific protein feature information.
 
 Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
 
