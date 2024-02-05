@@ -3,9 +3,9 @@
 This project utilizes the latent tensor reconstruction approach to model the joint interactions between different protein features to predict protein functional terms (i.e: Gene ontology terms).
 
 ## Software
-The LTR software is available at [`GO-LTR`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main)
-
-## Dependencies
+The code is developed using python>=3.8 
+The main algorithm ./scripts/go_ltr_main.py is based on LTR software wchich is available at [`GO-LTR`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main). 
+The following packages are required to run the file: numpy, scipy, itertools which are available freely on pypi.
 
 ## Dataset
 The uniprot IDs of the protein sequences used for the study are in ./dataset directory.
