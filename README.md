@@ -12,6 +12,8 @@ The uniprot IDs of the protein sequences used for the study are in ./dataset dir
 Using the IDs one can find the full specification of each protein in the UniProtKB database.
 The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as AlphaFoldDB, Rhea-DB, etc for specific protein feature information.
 
+Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
+
 ## Script
 
 ## Feature representation and parameter tensor factorization
