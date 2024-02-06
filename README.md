@@ -15,14 +15,14 @@ The following packages which can be downloaded free of charge on pypi, are requi
   * ./scripts/go_ltr_main.py - main file for running GO-LTR and generating predictions
 
 ## Dataset
-The uniprot IDs of the protein sequences used for the study are in ./dataset directory.
-Using the IDs one can find the full specification of each protein in the UniProtKB database.
-The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as [`AlphaFoldDB`](https://alphafold.ebi.ac.uk/), [`Rhea-DB`](https://www.rhea-db.org/), etc, for specific protein feature information.
+The [`UniProtKB`](https://www.uniprot.org/) IDs of the Swiss-prot manually reviewed protein sequences used for the study are in ./dataset directory.
+Using the IDs one can find the full specification of each protein in the  [`UniProtKB`](https://www.uniprot.org/) database.
+The ascession numbers obtained from the  [`UniProtKB`](https://www.uniprot.org/) search can then be used to query other databases such as [`AlphaFoldDB`](https://alphafold.ebi.ac.uk/), [`Rhea-DB`](https://www.rhea-db.org/), etc, for specific protein feature information.
 
 Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
 
 ## Structure of repository
-- ```dataset```: Contains the UniProt IDs of all sequences used in our experiments. There are .txt files for each ontology branch: Molecular Function Ontology (MFO), Cellular Component Ontology (CCO) and Biological Process Ontology (BPO)
+- ```dataset```: Contains the  [`UniProtKB`](https://www.uniprot.org/) IDs of all sequences used in our experiments. There are .txt files for each ontology branch: Molecular Function Ontology (MFO), Cellular Component Ontology (CCO) and Biological Process Ontology (BPO)
 - ```images```: Contains the image files for the workflow of the GO-LTR model
 - ```scripts```: Contains the main script for training the GO-LTR model and generating predictions
 
@@ -34,7 +34,7 @@ We leveraged 3 different protein features: Sequence embeddings generated from [`
 
 ## GO-LTR multiview framework
 ![Image Alt text](./images/GO_LTR_multiview_workflow.png "Illustration of the GO-LTR multiview workflow")
-As shown above, the functions associated with a particular protein forms a consistent graph in the Gene Ontology (GO) graph. The functional terms also follow the true-path annotation rule -- where a protein annotated to a deep level term in the ontology is automatically annotated to all the parents of the child term. 
+As shown above, the functions associated with a particular protein forms a consistent graph in the [`Gene Ontology`](https://geneontology.org/docs/download-ontology/) (GO) graph. The functional terms also follow the true-path annotation rule -- where a protein annotated to a deep level term in the ontology is automatically annotated to all the parents of the child term. 
 
 
 
