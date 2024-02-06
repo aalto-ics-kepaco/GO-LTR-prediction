@@ -7,9 +7,12 @@ The code is developed using python>=3.8.
 The main algorithm ./scripts/go_ltr_main.py is based on [`LTR`](https://arxiv.org/abs/2005.01538) [`software`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main) which is available at 
 [`GO-LTR`](https://github.com/aalto-ics-kepaco/GO_LTR/tree/main). 
 The following packages which can be downloaded free of charge on pypi, are required to run the file: 
-* numpy
-* scipy
-* itertools
+  * numpy
+  * scipy
+  * itertools
+
+## Scripts
+  * ./scripts/go_ltr_main.py - main file for running GO-LTR and generating predictions
 
 ## Dataset
 The uniprot IDs of the protein sequences used for the study are in ./dataset directory.
@@ -17,9 +20,6 @@ Using the IDs one can find the full specification of each protein in the UniProt
 The ascession numbers obtained from the UniprotKB search can then be used to query other databases such as [`AlphaFoldDB`](https://alphafold.ebi.ac.uk/), [`Rhea-DB`](https://www.rhea-db.org/), etc, for specific protein feature information.
 
 Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
-
-## Scripts
-* ./scripts/go_ltr_main.py - main file for running GO-LTR and generating predictions
 
 ## Feature representation and parameter tensor factorization
 
@@ -37,7 +37,7 @@ As shown above, the functions associated with a particular protein forms a consi
 We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/tree/kaggle) script for performance evaluation of the models considered under the study.
 
 
-## Citation
+## Papers on LTR method
 ```bibtex
 * @article{szedmak2020solution,
   title={A solution for large scale nonlinear regression with high rank and degree at constant memory complexity via latent tensor reconstruction},
