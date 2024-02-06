@@ -33,7 +33,7 @@ Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/
 We leveraged 3 different protein features: Sequence embeddings generated from [`ProtT5`](https://github.com/agemagician/ProtTrans) Protein language model, [`InterPro fingerprints`](https://www.ebi.ac.uk/interpro/) and Protein-protein interaction (PPI) data from [`StringDB`](https://string-db.org/).
 
 ## GO-LTR multiview framework
-![Image Alt text](./images/GO_LTR_multiview_workflow.png "Illustration of the GO-LTR multiview workflow")
+![Image Alt text](./images/GO_LTR_multiview_workflow.png "Illustration of the GO-LTR multiview workflow") 
 As shown above, the functions associated with a particular protein forms a consistent graph in the [`Gene Ontology`](https://geneontology.org/docs/download-ontology/) (GO) graph. The functional terms also follow the true-path annotation rule -- where a protein annotated to a deep level term in the ontology is automatically annotated to all the parents of the child term. 
 
 
