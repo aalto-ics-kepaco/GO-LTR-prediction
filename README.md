@@ -18,6 +18,7 @@ The following packages which can be downloaded free of charge on pypi, are requi
 The [`UniProtKB`](https://www.uniprot.org/) IDs of the Swiss-prot manually reviewed protein sequences used for the study are in ./dataset directory.
 Using the IDs one can find the full specification of each protein in the  [`UniProtKB`](https://www.uniprot.org/) database.
 The ascession numbers obtained from the  [`UniProtKB`](https://www.uniprot.org/) search can then be used to query other databases such as [`AlphaFoldDB`](https://alphafold.ebi.ac.uk/), [`Rhea-DB`](https://www.rhea-db.org/), etc, for specific protein feature information.
+The full manually reviewed Swiss-prot sequences can be downloade at https://ftp.uniprot.org/pub/databases/uniprot/knowledgebase/complete/
 
 Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
 
