@@ -21,6 +21,11 @@ The ascession numbers obtained from the UniprotKB search can then be used to que
 
 Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/MMseqs2)
 
+## Structure of repository
+- ```dataset```: Contains the UniProt IDs of all sequences used in our experiments. There are .txt files for each ontology branch: Molecular Function Ontology (MFO), Cellular Component Ontology (CCO) and Biological Process Ontology (BPO)
+- ```images```: Contains the image files for the workflow of the GO-LTR model
+- ```scripts```: Contains the main script for training the GO-LTR model and generating predictions
+
 ## Feature representation and parameter tensor factorization
 
 ![Image Alt text](./images/Feature_representation_tensor_factorization.png "Feature representation and Tensor factorization employed in GO-LTR")
@@ -35,11 +40,6 @@ As shown above, the functions associated with a particular protein forms a consi
 
 ## Evaluation. 
 We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/tree/kaggle) script for performance evaluation of the models considered under the study.
-
-## Structure of repository
-- ```dataset```: Contains the UniProt IDs of all sequences used in our experiments. There are .txt files for each ontology branch: Molecular Function Ontology (MFO), Cellular Component Ontology (CCO) and Biological Process Ontology (BPO)
-- ```images```: Contains the image files for the workflow of the GO-LTR model
-- ```scripts```: Contains the main script for training the GO-LTR model and generating predictions
 
 ## Papers on LTR method
 ```bibtex
