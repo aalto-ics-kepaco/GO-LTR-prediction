@@ -1,6 +1,6 @@
 # Protein Function Prediction through Latent Tensor Reconstruction
 
-This project utilizes the latent tensor reconstruction ([`LTR`](https://arxiv.org/abs/2005.01538)) approach to model the joint interactions between different protein features to predict protein functional terms (i.e: Gene ontology terms).
+In this project, we utilized the latent tensor reconstruction ([`LTR`](https://arxiv.org/abs/2005.01538)) approach to model the joint interactions between different protein features to predict protein functional terms (i.e: [`Gene Ontology`](https://geneontology.org/docs/download-ontology/) terms).
 
 ## Software
 The code is developed using python>=3.8.
