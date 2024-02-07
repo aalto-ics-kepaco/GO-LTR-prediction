@@ -41,9 +41,10 @@ As shown above, the functions associated with a particular protein forms a consi
 ## Mathematical formulations underpining LTR
 
 Given: a multi-view (multimodal) data sample 
-$$\mathcal{S} = ((\mathbf{x}_{i}^{(1)}, \dots, \mathbf{x}_{i}^{n_{d}}$$
+$
+\mathcal{S} = ((\mathbf{x}_{i}^{(1)}, \dots, \mathbf{x}_{i}^{n_{d}}
+$
 
-$$\min\limits_{\mathbf{T}}$$
 
 
 ## Evaluation. 
