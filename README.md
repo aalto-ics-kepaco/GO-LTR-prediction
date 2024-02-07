@@ -40,6 +40,8 @@ As shown above, the functions associated with a particular protein forms a consi
 
 ## Mathematical formulations underpining LTR
 
+Given: a sample $$\mathcal{S} =((\mbf{x}_i^{(1)},\dots,\mbf{x}_i^{(n_d)}), \mbf{y}_i) \mid i\in [m] , \\ $\qquad \mbf{x}^{(d)}_i \in \mathbb{R}^{n_{x_d}},\ d\in [n_d]$$
+
 $$\min\limits_{\mathbf{T}}$$
 
 
