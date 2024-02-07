@@ -40,8 +40,13 @@ As shown above, the functions associated with a particular protein forms a consi
 
 ## Mathematical formulations underpining LTR
 
-Given: a multi-view (multimodal) data sample 
-$\mathcal{S} = ((\mathbf{x}_{i}^{(1)}, \dots, \mathbf{x}_{i}^{n_{d}}$
+Given a multi-view (multimodal) data sample 
+
+Given: a sample 
+$$
+\mathcal{S} =((\mathbf{x}_i^{(1)},\dots, \mathbf{x}_i^{(n_d)}), \mathbf{y}_i) \mid i\in [m] \qquad \mathbf{x}^{(d)}_i \in \mathbb{R}^{n_{x_d}},\ d\in [n_d]
+$$
+
 
 
 
