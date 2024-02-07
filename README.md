@@ -1,3 +1,7 @@
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+
+
 # Protein Function Prediction through Latent Tensor Reconstruction
 
 In this project, we utilized the latent tensor reconstruction ([`LTR`](https://arxiv.org/abs/2005.01538)) approach to model the joint interactions between different protein features to predict protein functional terms (i.e: [`Gene Ontology`](https://geneontology.org/docs/download-ontology/) terms).
@@ -41,9 +45,9 @@ As shown above, the functions associated with a particular protein forms a consi
 ## Mathematical formulations underpining LTR
 
 Given: a multi-view (multimodal) data sample 
-$
+$$
 \mathcal{S} = ((\mathbf{x}_{i}^{(1)}, \dots, \mathbf{x}_{i}^{n_{d}}
-$
+$$
 
 
 
