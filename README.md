@@ -38,6 +38,10 @@ We leveraged 3 different protein features: Sequence embeddings generated from [`
 As shown above, the functions associated with a particular protein forms a consistent graph in the [`Gene Ontology`](https://geneontology.org/docs/download-ontology/) (GO) graph. The functional terms also follow the true-path annotation rule -- where a protein annotated to a deep level term in the ontology is automatically annotated to all the parents of the child term. 
 
 
+## Mathematical formulations underpining LTR
+
+$$\min\limits_{\mathbf{T}}$$
+
 
 ## Evaluation. 
 We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/tree/kaggle) script for performance evaluation of the models considered under the study.
