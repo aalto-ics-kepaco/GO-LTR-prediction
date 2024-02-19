@@ -12,6 +12,7 @@ The following packages which can be downloaded free of charge on pypi, are requi
   * itertools
 
 ## Scripts
+  * ./scripts/ltr_solver_multiview_0164.py - base LTR solver on which the go_ltr_main.py algorithm runs
   * ./scripts/go_ltr_main.py - main file for running GO-LTR and generating predictions
 
 ## Dataset
