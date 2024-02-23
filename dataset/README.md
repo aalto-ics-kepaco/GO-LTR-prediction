@@ -1,4 +1,4 @@
-* Dataset used:
+# Dataset used in the experiments:
 
 The UniProt identifiers of the proteins used in the respective ontologies are specified in:
 ** a. mfo_sequences_uniprot_ids.txt
