@@ -455,7 +455,7 @@ def main(iworkmode=None):
 			lx_cent_train = [centr_kern(Ktrain=lx_train[i], Ktest=None, train=True) for i in range(nxfile)]
 			lx_cent_test = [centr_kern(Ktrain=lx_train[i], Ktest=lx_test[i],train=False) for i in range(nxfile)]
 
-			loss_types = 'huber_power'
+			loss_type = 'huber_power'
 
 			iter_count += 1
 			print("Training with: ", loss_type, " loss function!")
