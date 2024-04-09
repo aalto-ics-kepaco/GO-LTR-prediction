@@ -30,7 +30,7 @@ Clustering of sequences was done with [`mmseqs2`](https://github.com/soedinglab/
 
 ## Feature representation and parameter tensor factorization
 
-![Image Alt text](./images/Feature_representation_tensor_decomposition.png "Feature representation and Tensor factorization employed in GO-LTR")
+![Image Alt text](./images/flowchart.png "Feature representation and Tensor factorization employed in GO-LTR")
 
 We leveraged 3 different protein features: Sequence embeddings generated from [`ProtT5`](https://github.com/agemagician/ProtTrans) Protein language model, [`InterPro fingerprints`](https://www.ebi.ac.uk/interpro/) and Protein-protein interaction (PPI) data from [`StringDB`](https://string-db.org/).
 
