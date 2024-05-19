@@ -1,4 +1,18 @@
-# Protein Function Prediction through Multi-view Multi-label Latent Tensor Reconstruction
+# [`Protein Function Prediction through Multi-view Multi-label Latent Tensor Reconstruction`](https://doi.org/10.1186/s12859-024-05789-4)
+
+## Cite this paper
+```bibtex
+* @article{armah2024protein,
+  title={Protein function prediction through multi-view multi-label latent tensor reconstruction},
+  author={Armah-Sekum, Robert Ebo and Szedmak, Sandor and Rousu, Juho},
+  journal={BMC bioinformatics},
+  volume={25},
+  number={1},
+  pages={174},
+  year={2024},
+  publisher={Springer}
+}
+```
 
 In this project, we utilized the latent tensor reconstruction ([`LTR`](https://arxiv.org/abs/2005.01538)) approach to model the joint interactions between different protein features to predict protein functional terms (i.e: [`Gene Ontology`](https://geneontology.org/docs/download-ontology/) terms).
 
@@ -74,5 +88,19 @@ We used the [`CAFA-evaluator`](https://github.com/BioComputingUP/CAFA-evaluator/
   pages={i93--i101},
   year={2021},
   publisher={Oxford University Press}
+}
+```
+
+## Cite this paper
+```bibtex
+* @article{armah2024protein,
+  title={Protein function prediction through multi-view multi-label latent tensor reconstruction},
+  author={Armah-Sekum, Robert Ebo and Szedmak, Sandor and Rousu, Juho},
+  journal={BMC bioinformatics},
+  volume={25},
+  number={1},
+  pages={174},
+  year={2024},
+  publisher={Springer}
 }
 ```
